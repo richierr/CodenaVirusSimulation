@@ -21,7 +21,7 @@ An array of 4 integers [a, b, c, d] where: <br />
 	
 Prioritize lower indexes if there is a case where one person is about to be infected by two neighbors, in that case the neighbor with lower row/col will win (Eg. Day 3 of test 4). <br />
 Example <br />
-• For world = 
+• For world =  <br />
 [["#","#","#"],  <br />
 ["#","#","#"],  <br />
 ["#","#","#"]] <br />
