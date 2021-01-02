@@ -21,62 +21,63 @@ An array of 4 integers [a, b, c, d] where: <br />
 	
 Prioritize lower indexes if there is a case where one person is about to be infected by two neighbors, in that case the neighbor with lower row/col will win (Eg. Day 3 of test 4). <br />
 Example <br />
-• For world = [["#","#","#"],  <br />
-      	      ["#","#","#"],  <br />
-              ["#","#","#"]] <br />
-and firstInfected = [1, 1], the answer is [7, 3, 6, 0]
-Explanation: H for healthy, I for infected, R for recovered
+• For world = 
+[["#","#","#"],  <br />
+["#","#","#"],  <br />
+["#","#","#"]] <br />
+and firstInfected = [1, 1], the answer is [7, 3, 6, 0] <br />
+Explanation: H for healthy, I for infected, R for recovered <br />
 
-DAY 0:
-[
+DAY 0: <br />
+[ <br />
 ["H", "H", "H"],
 ["H", "H", "H"],
 ["H", "H", "H"],
 ]
 DAY 1:
 [
-["H", "H", "H"],
-["H", "I", "H"],
-["H", "H", "H"],
-]
-DAY 2:
-[
-["H", "H", "H"],
-["H", "I", "I"],
-["H", "H", "H"],
-]
-DAY 3:
-[
-["H", "I", "I"],
-["H", "I", "I"],
-["H", "H", "H"],
-]
-DAY 4:
-[
-["I", "I", "I"],
-["H", "R", "I"],
-["H", "H", "I"],
-]
-DAY 5:
-[
-["I", "I", "I"],
-["I", "R", "R"],
-["H", "I", "I"],
-]
-DAY 6:
-[
-["I", "R", "R"],
-["I", "R", "R"],
-["I", "I", "I"],
-]
-DAY 7:
-[
-["R", "R", "R"],
-["I", "R", "R"],
-["I", "I", "R"],
-]
-
-• [input] array.array.char world
-• [input] array.integer firstInfected
-• [output] array.integer
+["H", "H", "H"], <br />
+["H", "I", "H"], <br />
+["H", "H", "H"], <br />
+] <br />
+DAY 2: <br />
+[ <br />
+["H", "H", "H"], <br />
+["H", "I", "I"], <br />
+["H", "H", "H"], <br />
+] <br />
+DAY 3: <br />
+[ <br />
+["H", "I", "I"], <br />
+["H", "I", "I"], <br />
+["H", "H", "H"], <br />
+] <br />
+DAY 4: <br />
+[ <br />
+["I", "I", "I"], <br />
+["H", "R", "I"], <br />
+["H", "H", "I"], <br />
+] <br />
+DAY 5: <br />
+[ <br />
+["I", "I", "I"], <br />
+["I", "R", "R"], <br />
+["H", "I", "I"], <br />
+] <br />
+DAY 6: <br />
+[ <br />
+["I", "R", "R"], <br />
+["I", "R", "R"], <br />
+["I", "I", "I"], <br />
+] <br />
+DAY 7: <br />
+[ <br />
+["R", "R", "R"], <br />
+["I", "R", "R"], <br />
+["I", "I", "R"], <br />
+] <br />
+ <br />
+• [input] array.array.char world <br />
+• [input] array.integer firstInfected <br />
+• [output] array.integer <br />
 1
