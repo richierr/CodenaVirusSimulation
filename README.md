@@ -30,12 +30,12 @@ Explanation: H for healthy, I for infected, R for recovered <br />
 
 DAY 0: <br />
 [ <br />
-["H", "H", "H"],
-["H", "H", "H"],
-["H", "H", "H"],
-]
-DAY 1:
-[
+["H", "H", "H"], <br />
+["H", "H", "H"], <br />
+["H", "H", "H"], <br />
+] <br />
+DAY 1: <br />
+[ <br />
 ["H", "H", "H"], <br />
 ["H", "I", "H"], <br />
 ["H", "H", "H"], <br />
@@ -80,4 +80,4 @@ DAY 7: <br />
 • [input] array.array.char world <br />
 • [input] array.integer firstInfected <br />
 • [output] array.integer <br />
-1
+
