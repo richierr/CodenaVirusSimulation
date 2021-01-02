@@ -8,26 +8,26 @@ Simulation of the spreading of the virus using multidimensional arrays
 
 
 Inputs
-	• world: a matrix of characters representing the proximity of people in a the world. A person is represented by "#" and empty spaces are represented by ".". One person is next to another one if they share the same row OR the same column and there is no empty space or another person between them.
-	• firstInfected: an array of integer of size 2 ([row, col]) storing the coordinates of the first person to contract the virus on day 1.
+• world: a matrix of characters representing the proximity of people in a the world. A person is represented by "#" and empty spaces are represented by ".". One person is next to another one if they share the same row OR the same column and there is no empty space or another person between them.
+• firstInfected: an array of integer of size 2 ([row, col]) storing the coordinates of the first person to contract the virus on day 1.
+
 Output
 An array of 4 integers [a, b, c, d] where:
-	• a : number of days until the virus stops spreading
-	• b : number of infected people at the end of the spread
-	• c : number of recovered people at the end
-	• d : number of uninfected people
+• a : number of days until the virus stops spreading
+• b : number of infected people at the end of the spread
+• c : number of recovered people at the end
+• d : number of uninfected people
 	
 	
-	Prioritize lower indexes if there is a case where one person is about to be infected by two neighbors, in that case the neighbor with lower row/col will win (Eg. Day 3 of test 4).
-	Example
-		• For
-	world = [["#","#","#"], 
-         ["#","#","#"], 
-         ["#","#","#"]]
-	and firstInfected = [1, 1], the answer is [7, 3, 6, 0]
+Prioritize lower indexes if there is a case where one person is about to be infected by two neighbors, in that case the neighbor with lower row/col will win (Eg. Day 3 of test 4).
+Example
+• For world = [["#","#","#"], 
+      	      ["#","#","#"], 
+              ["#","#","#"]]
+and firstInfected = [1, 1], the answer is [7, 3, 6, 0]
 Explanation: H for healthy, I for infected, R for recovered
 
-	DAY 0:
+DAY 0:
 [
 ["H", "H", "H"],
 ["H", "H", "H"],
