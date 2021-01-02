@@ -1,15 +1,15 @@
 # CodenaVirusSimulation
-Simulation of the spreading of the virus using multidimensional arrays
-• One infected person will infect only one healthy person next to him each day
-• If a person is infected, he will infect the person on his right, unless the latter is already infected, then he will infect the person on his top instead, but if that person is also already infected, then he will infect the one on his left, lastly if this one is also already infected, the he will infect the one below if this one is still healthy. (The examples will clarify)
-• A newly infected person will start infecting other people one day after the infection.
-• An infected person will recover after exactly 3 days of illness, counting from the day he got infected, and he will become immune to the virus (he won't be infected anymore)
+Simulation of the spreading of the virus using multidimensional arrays <br />
+• One infected person will infect only one healthy person next to him each day <br />
+• If a person is infected, he will infect the person on his right, unless the latter is already infected, then he will infect the person on his top instead, but if that person is also already infected, then he will infect the one on his left, lastly if this one is also already infected, the he will infect the one below if this one is still healthy. (The examples will clarify) <br />
+• A newly infected person will start infecting other people one day after the infection. <br />
+• An infected person will recover after exactly 3 days of illness, counting from the day he got infected, and he will become immune to the virus (he won't be infected anymore) <br />
 
 
 
-Inputs
-• world: a matrix of characters representing the proximity of people in a the world. A person is represented by "#" and empty spaces are represented by ".". One person is next to another one if they share the same row OR the same column and there is no empty space or another person between them.
-• firstInfected: an array of integer of size 2 ([row, col]) storing the coordinates of the first person to contract the virus on day 1.
+Inputs <br />
+• world: a matrix of characters representing the proximity of people in a the world. A person is represented by "#" and empty spaces are represented by ".". One person is next to another one if they share the same row OR the same column and there is no empty space or another person between them. <br />
+• firstInfected: an array of integer of size 2 ([row, col]) storing the coordinates of the first person to contract the virus on day 1. <br />
 
 Output
 An array of 4 integers [a, b, c, d] where:
