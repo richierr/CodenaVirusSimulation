@@ -75,6 +75,7 @@ DAY 7:
 ["I", "R", "R"],
 ["I", "I", "R"],
 ]
-		• [input] array.array.char world
-		• [input] array.integer firstInfected
-		• [output] array.integer
+
+• [input] array.array.char world
+• [input] array.integer firstInfected
+• [output] array.integer
