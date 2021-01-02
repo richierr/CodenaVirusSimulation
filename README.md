@@ -79,3 +79,4 @@ DAY 7:
 • [input] array.array.char world
 • [input] array.integer firstInfected
 • [output] array.integer
+1
